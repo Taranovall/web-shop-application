@@ -1,0 +1,221 @@
+.product .thumbnail {
+    position: relative;
+    overflow-y: scroll;
+}
+
+.product .name {
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+}
+
+.product .price {
+    text-align: left;
+    font-weight: 700;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.product .add-to-cart {
+    text-align: center;
+}
+
+.product .add-to-cart a {
+    width: 85%;
+}
+
+.product .add-to-cart a svg {
+    vertical-align: text-top;
+}
+
+.product .thumbnail .desc {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    text-align: justify;
+    background: #FFF;
+    padding: 7px;
+    opacity: 0.85;
+    word-wrap: break-word;
+}
+
+.product .thumbnail:HOVER .desc {
+    display: block;
+}
+
+@media (min-width: 576px) {
+    #findProducts {
+        display: block;
+    }
+}
+
+@media (max-width: 627px) {
+    #category,
+    #producer {
+        display: none;
+    }
+}
+
+.collapse-button {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.collapse-button .card-header {
+    border-top: 1px solid rgba(0, 0, 0, .125);
+}
+
+.collapse-button a {
+    color: #212529;
+}
+
+.collapse .card-body {
+    padding: 0.3rem 0.5rem;
+}
+
+.collapse .card-body .form-check {
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+
+.thumbnail:HOVER {
+    border: 2px solid rgba(0, 0, 0, .125);
+}
+
+.cart {
+    position: absolute;
+    right: 1%;
+}
+
+.pagination {
+    position: absolute;
+    left: 40%;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.navbar-soring-form {
+    position: absolute;
+    right: 25%;
+}
+
+.dropdown-menu[data-bs-popper] {
+    top: 100%;
+    right: 0;
+    left: unset;
+    margin-top: 0.125rem;
+}
+
+.dropdown-menu {
+    border: 1px solid rgba(0, 0, 0, .125);
+    height: 300px;
+}
+
+.dropdown-menu.show {
+    display: table;
+}
+
+.dropdown-menu li {
+    width: 400px;
+}
+
+.dropdown-menu .position {
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+    margin: 0;
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+
+.dropdown-menu .position .amount {
+    margin: auto 0;
+}
+
+.dropdown-menu .position {
+    padding-bottom: 0;
+}
+
+.dropdown-menu .position .amount input {
+    counter-increment: css-counter 1
+}
+
+.dropdown-menu .position input {
+    width: 100%;
+}
+
+.cart img {
+    height: 85px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+.product .add-to-cart a {
+    color: white;
+    text-decoration: none;
+}
+
+.dropdown-menu .cart-wrapper {
+    height: 300px;
+    overflow: scroll;
+}
+
+.dropdown-menu .price {
+    font-weight: 700;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.amount svg {
+    margin-bottom: 1rem;
+}
+
+.btn-outline-dark:hover {
+    color: #212529;
+    border-color: #212529;
+    background-color: unset;
+}
+
+.btn-outline-dark:focus {
+    box-shadow: none;
+}
+
+.total-products-amount {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 0;
+    border-radius: 100px;
+    background: red;
+    padding: 0.1rem;
+    font-size: 75%;
+    right: -5;
+}
+
+.total-price {
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#total-price {
+    font-weight: 700;
+}
+
+.buy {
+    border-top: 1px solid rgba(0, 0, 0, .125);
+    padding-top: 0.5rem;
+}
+
+.language {
+    position: relative;
+    padding-right: 0.75rem;
+    width: 50%;
+    text-align: center;
+    background-image: none;
+}

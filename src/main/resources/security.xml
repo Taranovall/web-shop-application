@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<security>
+    <constraint>
+        <url-pattern>/admin/hello</url-pattern>
+        <role>ADMIN</role>
+    </constraint>
+</security>
